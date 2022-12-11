@@ -20,6 +20,17 @@ eval("/* module decorator */ module = __webpack_require__.nmd(module);\nvar __WE
 
 /***/ }),
 
+/***/ "./src/scss/styles.scss":
+/*!******************************!*\
+  !*** ./src/scss/styles.scss ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://NINJAZ/./src/scss/styles.scss?");
+
+/***/ }),
+
 /***/ "./src/ts/hello.ts":
 /*!*************************!*\
   !*** ./src/ts/hello.ts ***!
@@ -38,7 +49,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"funcs\": () => (/* reexport safe */ _hello__WEBPACK_IMPORTED_MODULE_0__.funcs)\n/* harmony export */ });\n/* harmony import */ var _hello__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hello */ \"./src/ts/hello.ts\");\n\r\n\n\n//# sourceURL=webpack://NINJAZ/./src/ts/index.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"funcs\": () => (/* reexport safe */ _hello__WEBPACK_IMPORTED_MODULE_1__.funcs)\n/* harmony export */ });\n/* harmony import */ var _scss_styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/styles.scss */ \"./src/scss/styles.scss\");\n/* harmony import */ var _hello__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./hello */ \"./src/ts/hello.ts\");\n// Import our custom CSS\r\n\r\n\r\n\n\n//# sourceURL=webpack://NINJAZ/./src/ts/index.ts?");
 
 /***/ })
 
